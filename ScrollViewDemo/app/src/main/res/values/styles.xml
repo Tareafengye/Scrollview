@@ -1,0 +1,69 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="TranslucentTheme" parent="@style/Theme.AppCompat.Light.NoActionBar"></style>
+
+    <style name="text_white">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="text_black">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/black_dft</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="horizontal_divider">
+        <item name="android:layout_height">0.8dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/dividing_dark</item>
+    </style>
+
+    <style name="horizontal_divider_light">
+        <item name="android:layout_height">0.8dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/dividing_light</item>
+    </style>
+
+    <style name="vertical_divider">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">0.8dp</item>
+        <item name="android:background">@color/dividing_dark</item>
+    </style>
+
+    <style name="vertical_divider_light">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">0.8dp</item>
+        <item name="android:background">@color/dividing_light</item>
+    </style>
+    <!-- 加载框样式 -->
+    <style name="dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <!-- 边框 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:backgroundDimEnabled">false</item>
+        <!-- 模糊 -->
+        <item name="android:windowIsTranslucent">false</item>
+        <!-- 半透明 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 背景透明 -->
+    </style>
+    <declare-styleable name="LoweImageView">
+
+        <!-- 比例=宽/高 -->
+        <attr name="ratio" format="float" />
+    </declare-styleable>
+</resources>

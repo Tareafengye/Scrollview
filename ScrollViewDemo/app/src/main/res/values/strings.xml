@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ScrollView Demo</string>
+    <string name="auther">刘天天</string>
+    <string name="email">188****0674</string>
+
+    <string name="shopping_car">购物车</string>
+    <string name="consume_history">购买记录</string>
+    <string name="wallet">钱包</string>
+    <string name="sign">签到</string>
+    <string name="today_has_sign">(今日已签到)</string>
+    <string name="receive_address">收货地址</string>
+    <string name="my_agent">我的商户</string>
+    <string name="i_want_a_teacher">我要拜师</string>
+    <string name="start_luck">开始抽奖</string>
+    <string name="invite_reward">邀请奖励</string>
+    <string name="set">设置</string>
+    <string name="connect_error">网络连接失败,请检查网络</string>
+    <string name="connect_timeout">连接超时,请稍后再试</string>
+    <string name="bad_network">服务器异常</string>
+    <string name="parse_error">解析服务器响应数据失败</string>
+    <string name="unknown_error">未知错误</string>
+    <string name="response_return_error">服务器返回数据失败</string>
+</resources>
